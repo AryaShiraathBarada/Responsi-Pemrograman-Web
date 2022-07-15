@@ -1,0 +1,166 @@
+*{
+	padding: 0;
+	margin: 0; /*ukuran/
+	font-family: sans-serif; /*font*/
+}
+a{
+	color: inherit; /*Menggunakan warna mandiri*/
+	text-decoration: none; /*Menghilangkan garisbawah pada text href*/
+}
+.medsos{
+	padding: 5px 0;
+	background-color: #FF8AEF;
+}
+.medsos ul li {
+	display: inline-block;
+	color: black;
+	margin-right: 10px;
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+
+}
+.container:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+header{
+	color: white;
+	background-color: black;
+}
+header h1{
+	font-family: roboto;
+	float: left;
+	padding: 15px 0px;
+}
+header ul{
+	float: right;
+}
+header li{
+	display: inline-block;
+
+}
+header ul li a{
+	display: inline-block;
+	padding: 25px 20px ;
+}
+header ul li a:hover{
+	background-color: rgba(255, 165, 243, .8);
+}
+.active{
+	background-color: #FF8AEF;
+}
+.banner{
+	height: 60vh ;
+	background-image: url('img/bg.jpg');
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.banner:after{
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(255, 165, 243, .2) ;
+}
+.banner h2{
+	font-family: roboto;
+	color: white ;
+	z-index: 1;
+	padding: 20px 50px;
+	border: 5px solid black;
+}
+section{
+	padding: 10px 0px ;
+	background-color: black;
+}
+section h3{
+	text-align: center;
+	padding: 20px 0;
+	color: white;
+}
+.about{
+	color: white;
+	word-spacing: 2px;
+	line-height: 25px;
+}
+.service{
+	background-color: black;
+}
+.biodata{
+	height: 60vh ;
+	background-image: url('img/bg.jpg');
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #622D5F ;
+}
+.calculator{
+	height: 60vh ;
+	background-image: url('img/bg.jpg');
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #622D5F;
+}
+.main {
+  position: relative;
+  width: fixed;
+  background: #252525;
+  padding: 25px;
+  border-radius: 15px;
+}
+.main h2 {
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+}
+.button {
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  margin: 2px;
+  cursor: pointer;
+  border: none;
+  background: #494949;
+  color: white;
+  border-radius: 15px;
+  
+}
+
+.btn-yellow {
+  background: #FFA400;
+  color: white;
+}
+
+.textarea {
+  width: 204px;
+  margin: 4px;
+  font-size: 20px;
+  padding: 10px;
+  border: none;
+  color: black;
+  border-radius: 25px;
+  text-align: right;
+}
+.calendar{
+	background-image: url('img/bg.jpg');
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #622D5F ;
+}
